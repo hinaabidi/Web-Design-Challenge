@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="Resources/css/Styles.css">
+  <title>Latitude</title>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Latitude</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Temperature</a>
+                            </li>
+                            <li>
+                                <a href="#">Humidity</a>
+                            </li>
+                            <li>
+                                <a href="#">Cloudiness</a>
+                            </li>
+                            <li>
+                                <a href="#">Wind Speed</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Comparison</a>
+                    </li>
+                    <li>
+                        <a href="#">Data</a>
+                    </li>
+                </ul>
+  </div>
+</nav>
+  
+<div class="container-fluid myContainer-fluid">
+	<div class="row myRow row-grid top-buffer">
+		<div class="col-md-8 myContainer">
+			<section>
+				<h3>Summary: Latitude vs. X</h3>
+  		<hr>
+  		<img src="Resources/assets/images/Fig1.png" class="float-left" alt="Paris" width="304" height="236"> 
+			</section>
+        <section>
+        	<p>The purpose of this project was ti analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
+  		<p>
+  			After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This sire provides the source data and visualizations created as part of the analysis, as well as explanation and descriptions of any trends and correlations witnessed.
+  		</p>
+        </section>
+  		
+      </div>
+      <div class="col-md-4 myContainer">
+      	<h3>Visualizations</h3>
+  		<hr>
+         <div class="row">
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="#">
+                                    <img id="landing-viz" src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature">
+                                </a>
+                            </figure>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="#">
+                                    <img id="landing-viz" src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity">
+                                </a>
+                            </figure>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="#">
+                                    <img id="landing-viz" src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness">
+                                </a>
+                            </figure>
+                        </div>
+
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                            <figure>
+                                <a href="#">
+                                    <img id="landing-viz" src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed">
+                                </a>
+                            </figure>
+                        </div>
+
+                    </div>
+      </div>
+	</div>
+  
+</div>
+</body>
+</html>
