@@ -7,14 +7,14 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="Resources/css/Styles.css">
+    <link rel="stylesheet" href="../Resources/css/Styles.css">
     <title>Latitude</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand bg-info p-2 rounded text-white fw-bold fs-4" href="#">Latitude</a>
+          <a class="navbar-brand bg-info p-2 rounded text-white fw-bold fs-4" href="../index.html">Latitude</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -25,16 +25,16 @@
                       Plots
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="./visualizations/temp.html">Max Temperature</a></li>
-                      <li><a class="dropdown-item" href="./visualizations/humidity.html">Humidity</a></li>
-                      <li><a class="dropdown-item" href="./visualizations/cloud.html">Cloudiness</a></li>
-                      <li><a class="dropdown-item" href="./visualizations/wind.html">Wind Speed</a></li>
+                      <li><a class="dropdown-item" href="./temp.html">Max Temperature</a></li>
+                      <li><a class="dropdown-item" href="./humidity.html">Humidity</a></li>
+                      <li><a class="dropdown-item" href="./cloud.html">Cloudiness</a></li>
+                      <li><a class="dropdown-item" href="./wind.html">Wind Speed</a></li>
                     </ul>
                   </li>   <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./visualizations/comparison.html">Comparison</a>
+                <a class="nav-link active" aria-current="page" href="./comparison.html">Comparison</a>
               </li>
                   </li>   <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./visualizations/data.html">Data</a>
+                <a class="nav-link active" aria-current="page" href="./data.html">Data</a>
               </li>
             </ul>
           </div>
@@ -44,10 +44,10 @@
     <div class="container-fluid myContainer-fluid">
         <div class="row myRow row-grid top-buffer">
             <div class="col-md-7 me-4 myContainer">
-                    <h3>Summary: Latitude vs. X</h3>
+                    <h3>Cloudiness</h3>
                     <hr>
-                    <img src="Resources/assets/images/Fig1.png" class="float-start" alt="Summary" width="304" height="236">
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
+                    <img src="../Resources/assets/images/Fig3.png" class="w-100">
+                    <p>The purpose of this project was ti analyze how weather changes as you get closer to the equator.
                         To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a
                         dataset on over 500 cities</p>
                     <p>
@@ -63,8 +63,8 @@
                 <div class="row">
                     <div class="col-xs-6 col-sm-3 col-md-6">
                         <figure>
-                            <a href="./visualizations/temp.html">
-                                <img id="landing-viz" src="Resources/assets/images/Fig1.png"
+                            <a href="./temp.html">
+                                <img id="landing-viz" src="../Resources/assets/images/Fig1.png"
                                     alt="Latitude vs. Temperature">
                             </a>
                         </figure>
@@ -72,17 +72,17 @@
 
                     <div class="col-xs-6 col-sm-3 col-md-6">
                         <figure>
-                            <a href="./visualizations/humidity.html">
-                                <img id="landing-viz" src="Resources/assets/images/Fig2.png"
+                            <a href="./humidity.html">
+                                <img id="landing-viz" src="../Resources/assets/images/Fig2.png"
                                     alt="Latitude vs. Humidity">
                             </a>
                         </figure>
                     </div>
 
                     <div class="col-xs-6 col-sm-3 col-md-6">
-                        <figure>
-                            <a href="./visualizations/cloud.html">
-                                <img id="landing-viz" src="Resources/assets/images/Fig3.png"
+                        <figure class="border border-info">
+                            <a href="./cloud.html">
+                                <img id="landing-viz" src="../Resources/assets/images/Fig3.png"
                                     alt="Latitude vs. Cloudiness">
                             </a>
                         </figure>
@@ -90,8 +90,8 @@
 
                     <div class="col-xs-6 col-sm-3 col-md-6">
                         <figure>
-                            <a href="./visualizations/wind.html">
-                                <img id="landing-viz" src="Resources/assets/images/Fig4.png"
+                            <a href="./wind.html">
+                                <img id="landing-viz" src="../Resources/assets/images/Fig4.png"
                                     alt="Latitude vs. Wind Speed">
                             </a>
                         </figure>

@@ -8,17 +8,25 @@
 
 }
 
+.bg-info{
+  background-color: #4aa0af!important;;
+}
 .navbar-default .navbar-nav>li>a{
 	color: #838383;
 }
 
 .navbar-default .navbar-brand {
+  
 	text-align: center;
     color: #ffffff;
 }
 
-h3{
+h3, h5{
 	color: #4aa0af;
+}
+
+h6{
+  color: #646464;
 }
 
 p{
