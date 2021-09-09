@@ -1,5 +1,5 @@
 
-The wensite URl is - https://hinaabidi.github.io/Web-Design-Challenge/index.html
+The website URl is - https://hinaabidi.github.io/Web-Design-Challenge/index.html
 
 
 
